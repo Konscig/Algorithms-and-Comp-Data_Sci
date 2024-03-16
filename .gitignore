@@ -1,0 +1,18 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/lab_1/CMakeLists.txt
+/lab_1/CMakePresets.json
+/lab_1/CppProperties.json
+/lab_1/.vs
+/lab_1/out/build/x64-release/.cmake/api/v1
+/lab_1/out/build/x64-release/.ninja_deps
+/lab_1/out/build/x64-release/.ninja_log
+/lab_1/out/build/x64-release/build.ninja
+/lab_1/out/build/x64-release/CMakeCache.txt
+/lab_1/out/build/x64-release/CMakeFiles
+/lab_1/out/build/x64-release/cmake_install.cmake
+/lab_1/out/build/x64-release/lab_1.exe
+/lab_1/out/build/x64-release/Testing/Temporary
+/lab_1/out/build/x64-release/VSInheritEnvironments.txt
