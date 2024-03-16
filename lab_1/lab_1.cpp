@@ -64,9 +64,10 @@ chrono::microseconds::rep sec(unsigned long (*func)(int), int n) {
 
 int main() {
 	int n = 35;
-	cout << sec(binet, n) << "\n";
-	cout << sec(iteration, n) << "\n";
-	cout << sec(div_conq, n) << "\n";
-	cout << sec(down_pr, n) << "\n";
-	cout << sec(up_pr, n) << "\n";
+	cout << binet(n) << " -> " << sec(binet, n) << "\n";
+	cout << iteration(n) << " -> " << sec(iteration, n) << "\n";
+	cout << iteration(n) << " -> " << sec(iteration, n) << "\n";
+	cout << div_conq(n) << " -> " << sec(div_conq, n) << "\n";
+	cout << down_pr(n) << " -> " << sec(down_pr, n) << "\n";
+	cout << up_pr(n) << " -> " << sec(up_pr, n) << "\n";
 }
